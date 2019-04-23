@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/iconWhiteColor</item>
+        <item name="android:tint">@color/iconWhiteColor</item>
+        <item name="seekBarStyle">@style/custom_seek_bar_style</item>
+    </style>
+    <style name="AppThemeDrum" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/pianoBlackKeyColor</item>
+        <item name="android:tint">@color/iconWhiteColor</item>
+    </style>
+    <style name="custom_seek_bar_style">
+        <item name="android:thumb">@drawable/custom_thumb</item>
+        <item name="android:progressDrawable">@drawable/custom_progress</item>
+        <item name="android:thumbOffset">-1dp</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MyActionBarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/faderColor</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/faderColor</item>
+    </style>
+</resources>

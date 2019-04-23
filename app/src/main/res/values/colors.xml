@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#649cb3</color>
+    <color name="colorPrimaryDark">#1d6069</color>
+    <color name="colorAccent">#198ad6</color>
+    <color name="muteOffButtonColor">#285366</color>
+    <color name="muteOffTextColor">#f1eff0</color>
+    <color name="muteOnButtonColor">#198ad6</color>
+    <color name="soloOffButtonColor">#285366</color>
+    <color name="iconButtonColor">#285366</color>
+    <color name="soloOnButtonColor">#198ad6</color>
+    <color name="pianoWhiteKeyColor">#ffffff</color>
+    <color name="iconWhiteColor">#ffffff</color>
+    <color name="pianoBlackKeyColor">#000000</color>
+    <color name="faderColor">#FF3443</color>
+    <color name="backGroundColor">#d5edf7</color>
+</resources>

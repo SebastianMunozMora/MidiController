@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sebastian.midicontroller.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/recordEnable1"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_1"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable2"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_2"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable3"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_3"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable4"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_4"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable5"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_5"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable6"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_6"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable7"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_7"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recordEnable8"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Channel_8"
+        android:textColor="@color/muteOffTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/muteButton1"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView1"
+        app:layout_constraintStart_toEndOf="@+id/faderBar1" />
+
+    <Button
+        android:id="@+id/muteButton2"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView2"
+        app:layout_constraintStart_toEndOf="@+id/faderBar2" />
+
+    <Button
+        android:id="@+id/muteButton3"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView3"
+        app:layout_constraintStart_toEndOf="@+id/faderBar3" />
+
+    <Button
+        android:id="@+id/muteButton4"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView4"
+        app:layout_constraintStart_toEndOf="@+id/faderBar4" />
+
+    <Button
+        android:id="@+id/muteButton5"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView5"
+        app:layout_constraintStart_toEndOf="@+id/faderBar5" />
+
+    <Button
+        android:id="@+id/muteButton6"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView6"
+        app:layout_constraintStart_toEndOf="@+id/faderBar6" />
+
+    <Button
+        android:id="@+id/muteButton7"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView7"
+        app:layout_constraintStart_toEndOf="@+id/faderBar7" />
+
+    <Button
+        android:id="@+id/muteButton8"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/muteOffButtonColor"
+        android:text="@string/Mute_Button"
+        android:textColor="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView8"
+        app:layout_constraintStart_toEndOf="@+id/faderBar8" />
+
+    <Button
+        android:id="@+id/soloButton1"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView1"
+        app:layout_constraintStart_toEndOf="@+id/muteButton1" />
+
+    <Button
+        android:id="@+id/soloButton2"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView2"
+        app:layout_constraintStart_toEndOf="@+id/muteButton2" />
+
+    <Button
+        android:id="@+id/soloButton3"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView3"
+        app:layout_constraintStart_toEndOf="@+id/muteButton3" />
+
+    <Button
+        android:id="@+id/soloButton4"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView4"
+        app:layout_constraintStart_toEndOf="@+id/muteButton4" />
+
+    <Button
+        android:id="@+id/soloButton5"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView5"
+        app:layout_constraintStart_toEndOf="@+id/muteButton5" />
+
+    <Button
+        android:id="@+id/soloButton6"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView6"
+        app:layout_constraintStart_toEndOf="@+id/muteButton6" />
+
+    <Button
+        android:id="@+id/soloButton7"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView7"
+        app:layout_constraintStart_toEndOf="@+id/muteButton7" />
+
+    <Button
+        android:id="@+id/soloButton8"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:background="@color/soloOffButtonColor"
+        android:textColor="@color/muteOffTextColor"
+        android:text="@string/Solo_Button"
+        app:layout_constraintBottom_toTopOf="@+id/channelView8"
+        app:layout_constraintStart_toEndOf="@+id/muteButton8" />
+
+    <SeekBar
+        android:id="@+id/faderBar1"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/muteOffTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/channelView1"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable1" />
+
+    <SeekBar
+        android:id="@+id/faderBar2"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/channelView2"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable2" />
+
+    <SeekBar
+        android:id="@+id/faderBar3"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView3"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable3" />
+
+    <SeekBar
+        android:id="@+id/faderBar4"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView4"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable4" />
+
+    <SeekBar
+        android:id="@+id/faderBar5"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView5"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable5" />
+
+    <SeekBar
+        android:id="@+id/faderBar6"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView6"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable6" />
+
+    <SeekBar
+        android:id="@+id/faderBar7"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView7"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable7" />
+
+    <SeekBar
+        android:id="@+id/faderBar8"
+        android:layout_width="120dp"
+        android:max="127"
+        android:progress="100"
+        android:layout_height="36dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/channelView8"
+        app:layout_constraintStart_toEndOf="@+id/recordEnable8" />
+
+    <ImageButton
+        android:id="@+id/playPauseButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/iconButtonColor"
+        android:tint="@color/iconWhiteColor"
+        android:src="@drawable/ic_action_play"
+        android:onClick="playButton"
+        app:layout_constraintBottom_toTopOf="@id/channelView9"
+        app:layout_constraintStart_toEndOf="@+id/rewindButton" />
+
+    <ImageButton
+        android:id="@+id/stopButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/iconButtonColor"
+        android:tint="@color/iconWhiteColor"
+        android:src="@drawable/ic_action_stop"
+        android:onClick="stopButton"
+        app:layout_constraintBottom_toTopOf="@id/channelView9"
+        app:layout_constraintStart_toEndOf="@+id/playPauseButton" />
+
+    <ImageButton
+        android:id="@+id/recordButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/iconButtonColor"
+        android:tint="@color/iconWhiteColor"
+        android:src="@drawable/ic_action_record"
+        android:onClick="recordButton"
+        app:layout_constraintBottom_toTopOf="@id/channelView9"
+        app:layout_constraintStart_toEndOf="@+id/stopButton"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/rewindButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="64dp"
+        android:background="@color/iconButtonColor"
+        android:onClick="rewindButton"
+        android:src="@drawable/ic_action_rewind"
+        android:tint="@color/iconWhiteColor"
+        app:layout_constraintBottom_toTopOf="@id/channelView9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/forwardButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/iconButtonColor"
+        android:tint="@color/iconWhiteColor"
+        android:onClick="forwardButton"
+        android:src="@drawable/ic_action_fastforward"
+        app:layout_constraintBottom_toTopOf="@id/channelView9"
+        app:layout_constraintStart_toEndOf="@+id/recordButton"
+        />
+
+    <SeekBar
+        android:id="@+id/panBar1"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton1" />
+
+    <SeekBar
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        android:id="@+id/panBar2"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        app:layout_constraintBottom_toTopOf="@+id/channelView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton2" />
+
+    <SeekBar
+        android:id="@+id/panBar3"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton3" />
+
+    <SeekBar
+        android:id="@+id/panBar4"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton4" />
+
+    <SeekBar
+        android:id="@+id/panBar5"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton5" />
+
+    <SeekBar
+        android:id="@+id/panBar6"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton6" />
+
+    <SeekBar
+        android:id="@+id/panBar7"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton7" />
+
+    <SeekBar
+        android:id="@+id/panBar8"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:max="127"
+        android:progress="64"
+        android:progressDrawable="@drawable/custom_progress_background_2"
+        app:layout_constraintBottom_toTopOf="@+id/channelView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soloButton8" />
+
+    <View
+        android:id="@+id/channelView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="144dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="192dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="336dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="384dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/channelView9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="432dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

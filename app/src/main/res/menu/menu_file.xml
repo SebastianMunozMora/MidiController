@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/layer_change"
+            android:title="@string/layer_menu1"
+            android:onClick="layerChange"
+            app:showAsAction="always"/>
+        <item android:id="@+id/reset_one"
+            android:title=""
+            android:iconTint="@color/iconWhiteColor"
+            android:icon="@drawable/ic_action_reset_on"
+            android:background="@color/iconWhiteColor"
+            android:onClick="resetOneMenu"
+            app:showAsAction="always"/>
+        <item android:id="@+id/reset_all"
+            android:iconTint="@color/iconWhiteColor"
+            android:icon="@drawable/ic_action_reset_all"
+            android:title=""
+            android:onClick="resetAllMenu"
+            app:showAsAction="always"/>
+        <item android:id="@+id/piano_activity"
+            android:iconTint="@color/iconWhiteColor"
+            android:icon="@drawable/ic_action_piano"
+            android:title=""
+            android:onClick="pianoLaunch"
+            app:showAsAction="always"/>
+        <item android:id="@+id/drum_activity"
+            android:iconTint="@color/iconWhiteColor"
+            android:icon="@drawable/ic_action_drum"
+            android:title=""
+            android:onClick="padLaunch"
+            app:showAsAction="always"/>
+</menu>

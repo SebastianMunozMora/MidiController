@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/muteOffButtonColor"
+    tools:context="com.example.sebastian.midicontroller.DrumPad">
+
+    <Button
+        android:id="@+id/drumButton1"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/drumButton2"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton1" />
+
+    <Button
+        android:id="@+id/drumButton3"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton2" />
+
+    <Button
+        android:id="@+id/drumButton4"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton3" />
+
+
+    <Button
+        android:id="@+id/drumButton5"
+        android:layout_width="88dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/drumButton6"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton2"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton1" />
+
+    <Button
+        android:id="@+id/drumButton7"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton3"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton2" />
+
+    <Button
+        android:id="@+id/drumButton8"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton4"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton3" />
+
+    <Button
+        android:id="@+id/drumButton9"
+        android:layout_width="88dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/drumButton10"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton6"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton1" />
+
+    <Button
+        android:id="@+id/drumButton11"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton7"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton2" />
+
+    <Button
+        android:id="@+id/drumButton12"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/drumButton8"
+        app:layout_constraintTop_toBottomOf="@+id/drumButton3" />
+
+
+
+</android.support.constraint.ConstraintLayout>

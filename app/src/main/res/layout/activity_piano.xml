@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/muteOffButtonColor"
+    tools:context="com.example.sebastian.midicontroller.PianoActivity">
+
+    <Button
+        android:id="@+id/pButton12"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:text=""
+        android:textColor="@color/pianoBlackKeyColor"
+        app:layout_constraintStart_toEndOf="@+id/pButton11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/pButton10"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@color/pianoBlackKeyColor"
+        app:layout_constraintStart_toEndOf="@+id/pButton9"
+        app:layout_constraintTop_toBottomOf="@+id/pButton12" />
+
+
+    <Button
+        android:id="@+id/pButton8"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/pButton7"
+        app:layout_constraintTop_toBottomOf="@+id/pButton10" />
+
+
+    <Button
+        android:id="@+id/pButton6"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@color/pianoBlackKeyColor"
+        app:layout_constraintStart_toEndOf="@+id/pButton7"
+        app:layout_constraintTop_toBottomOf="@+id/pButton8" />
+
+    <Button
+        android:id="@+id/pButton5"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/pButton4"
+        app:layout_constraintTop_toBottomOf="@+id/pButton6" />
+
+    <Button
+        android:id="@+id/pButton3"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/pButton4"
+        app:layout_constraintTop_toBottomOf="@+id/pButton5" />
+
+    <Button
+        android:id="@+id/pButton1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoWhiteKeyColor"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/pButton2"
+        app:layout_constraintTop_toBottomOf="@+id/pButton3" />
+
+    <Button
+        android:textColor="@color/iconWhiteColor"
+        android:id="@+id/pButton11"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/pianoBlackKeyColor"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="@color/iconWhiteColor"
+        android:id="@+id/pButton9"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoBlackKeyColor"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pButton11" />
+
+    <Button
+        android:id="@+id/pButton7"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoBlackKeyColor"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pButton9" />
+
+    <Button
+        android:textColor="@color/iconWhiteColor"
+        android:id="@+id/pButton4"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/pianoBlackKeyColor"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pButton7" />
+
+    <Button
+        android:textColor="@color/iconWhiteColor"
+        android:id="@+id/pButton2"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/pianoBlackKeyColor"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pButton4" />
+
+
+
+</android.support.constraint.ConstraintLayout>
